@@ -1,0 +1,89 @@
+@import url( https://fonts.googleapis.com/css?family=Lexend);
+.firstPara {
+
+color: darkgoldenrod
+}
+
+
+.para  {
+color: blueviolet
+}
+
+
+body{
+    font-family: helvetica, arial, sans-serif;	color:#000099;
+    background-color:#FFFFCC;
+}
+
+h1,h2{
+    font-family: 'Lexend'
+    font-size: 2rem;
+    font-weight:100;
+    background-color:#cccccc;
+    text-align: center;
+}
+
+p strong{
+    color:pink;
+}
+
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+#footer {
+    color: #0066CC;
+    background-color: #CCCCCC;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+a:link{
+    text-decoration:none;
+    color:#000000;
+}
+a:visited{
+    text-decoration:none;
+    color: pink;
+}
+a:hover{
+    text-decoration:underline;
+    color:#66CC00;
+}
+a:active{
+    text-decoration:underline;
+    color:#CC6600;
+}
+
+nav li a:link{
+    text-decoration:none;
+    color:#000000;
+}
+nav li a:visited{
+    text-decoration:none;
+    color: pink;
+}
+nav li a:hover{
+    text-decoration:underline;
+    color:#66CC00;
+}
+nav li a:active{
+    text-decoration:underline;
+    color:#CC6600;
+}
+
+.quals{
+    border-collapse: collapse;
+}
+.quals th{
+    border-bottom:3px solid #ccc;
+    padding:5px;
+}
+.quals td{
+    border-bottom:1px solid #ccc;
+    padding:5px;
+}
