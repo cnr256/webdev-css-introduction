@@ -1,4 +1,3 @@
-@import url( https://fonts.googleapis.com/css?family=Lexend);
 .firstPara {
 
 color: darkgoldenrod
@@ -16,7 +15,6 @@ body{
 }
 
 h1,h2{
-    font-family: 'Lexend'
     font-size: 2rem;
     font-weight:100;
     background-color:#cccccc;
@@ -24,7 +22,7 @@ h1,h2{
 }
 
 p strong{
-    color:pink;
+    color: pink;
 }
 
 #container {
@@ -41,7 +39,6 @@ p strong{
     text-align: center;
 }
 
-
 a:link{
     text-decoration:none;
     color:#000000;
@@ -52,29 +49,13 @@ a:visited{
 }
 a:hover{
     text-decoration:underline;
-    color:#66CC00;
+    color: lightskyblue;
 }
 a:active{
     text-decoration:underline;
     color:#CC6600;
 }
 
-nav li a:link{
-    text-decoration:none;
-    color:#000000;
-}
-nav li a:visited{
-    text-decoration:none;
-    color: pink;
-}
-nav li a:hover{
-    text-decoration:underline;
-    color:#66CC00;
-}
-nav li a:active{
-    text-decoration:underline;
-    color:#CC6600;
-}
 
 .quals{
     border-collapse: collapse;
